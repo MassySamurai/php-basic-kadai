@@ -10,6 +10,8 @@ $score8  = 95;
 $score9  = 30;
 $score10 = 60;
 
-$average = ($score1 + $score2 + $score3 + $score4 + $score5 + $score6 + $score7 + $score8 + $score9 + $score10) / 10;
-echo $average;
+$total = $score1 + $score2 + $score3 + $score4 + $score5 + $score6 + $score7 + $score8 + $score9 + $score10;
+$average = $total / 10;
+echo "合計：$total<br>";
+echo "平均：$average<br>";
 ?>
